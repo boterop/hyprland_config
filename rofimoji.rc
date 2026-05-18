@@ -1,3 +1,4 @@
 action = copy
 files = [emojis, math]
 skin-tone = moderate
+max-recent = 0
