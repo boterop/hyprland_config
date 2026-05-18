@@ -1,0 +1,94 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+* {
+    bg: rgba(17,17,27,0.90);
+    bg-alt: rgba(30,30,46,0.78);
+
+    fg: #cdd6f4;
+
+    selected: #89b4fa;
+    active: #a6e3a1;
+    urgent: #f38ba8;
+
+    border-colour: rgba(137,180,250,0.55);
+
+    background-color: transparent;
+    text-color: @fg;
+}
+
+window {
+    width: 42%;
+
+    border: 2px;
+    border-color: @border-colour;
+
+    border-radius: 20px;
+
+    background-color: @bg;
+
+    padding: 20px;
+
+    transparency: "real";
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+
+    border-radius: 14px;
+
+    padding: 12px;
+}
+
+prompt {
+    text-color: @selected;
+
+    padding: 0 10px 0 0;
+}
+
+entry {
+    placeholder: "Search keybind...";
+}
+
+listview {
+    lines: 10;
+
+    spacing: 8px;
+
+    scrollbar: false;
+
+    dynamic: true;
+}
+
+element {
+    padding: 12px;
+
+    border-radius: 12px;
+
+    background-color: transparent;
+}
+
+element normal.normal {
+    background-color: transparent;
+}
+
+element selected.normal {
+    background-color: rgba(137,180,250,0.28);
+
+    text-color: #ffffff;
+}
+
+element-text {
+    background-color: transparent;
+
+    text-color: inherit;
+
+    vertical-align: 0.5;
+}
