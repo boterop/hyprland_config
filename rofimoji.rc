@@ -1,1 +1,3 @@
-STYLE=~/.config/hypr/scripts/theme.rasi
+action = copy
+files = [emojis, math]
+skin-tone = moderate
