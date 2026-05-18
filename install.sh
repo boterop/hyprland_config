@@ -9,6 +9,23 @@ mkdir -p ~/.config/hypr
 mkdir -p ~/.config/mako
 mkdir -p ~/.config/kitty
 
+echo "Install dependencies"
+sudo -v
+pacman -S --noconfirm git \
+  ttf-jetbrains-mono-nerd \
+  mako \
+  cliphist \
+  wl-clipboard \
+  hyprpicker \
+  playerctl \
+  brightnessctl \
+  grim slurp swappy \
+  hyprpolkitagent \
+  rofi \
+  hyprpaper \
+  hyprlock \
+  hypridle
+
 echo "Downloading config files"
 git clone https://github.com/boterop/hyprland_config $DIR
 
