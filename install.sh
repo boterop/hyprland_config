@@ -27,7 +27,8 @@ sudo pacman -S --noconfirm git \
   rofi \
   hyprpaper \
   hyprlock \
-  hypridle
+  hypridle \
+  rofimoji
 
 echo "Downloading config files"
 git clone https://github.com/boterop/hyprland_config $DIR
@@ -37,6 +38,7 @@ cp -r $DIR/hypr/* ~/.config/hypr/
 cp -r $DIR/mako/* ~/.config/mako/
 cp -r $DIR/kitty/* ~/.config/kitty/
 cp -r $DIR/starship.toml ~/.config/
+cp -r $DIR/rofimoji.rc ~/.config/
 
 chmod +x ~/.config/hypr/scripts/*.sh
 

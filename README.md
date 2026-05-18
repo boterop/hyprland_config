@@ -16,8 +16,9 @@ Includes carefully curated configs, scripts and utilities for a fast and lightwe
 - Hyprlock + Hypridle integration
 - Wallpaper management
 - Clipboard history support
+- Color picker
 - Battery notifications
-- Scratchpad terminal
+- Emoji picker
 - Audio and brightness controls
 - Nerd Fonts support
 - Developer-focused workflow
@@ -39,6 +40,7 @@ Includes carefully curated configs, scripts and utilities for a fast and lightwe
 | swappy     | Screenshot editor  |
 | grim/slurp | Screenshots        |
 | hyprpicker | Color picker       |
+| rofimoji   | Emoji picker       |
 
 ---
 
@@ -91,15 +93,6 @@ Most configuration files are located in:
 
 ```bash
 ~/.config/
-```
-
-including:
-
-```text
-hypr/
-kitty/
-mako/
-rofi/
 ```
 
 ---
